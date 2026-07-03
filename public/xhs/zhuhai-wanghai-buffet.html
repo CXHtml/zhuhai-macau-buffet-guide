@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>望海楼自助餐测评 - 小红书分享中转</title>
+    <meta name="description" content="望海楼酒店海悦轩自助餐 · 望海楼自助餐测评" />
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f6f2ea;
+        --panel: #fffdf8;
+        --ink: #182224;
+        --muted: #667376;
+        --line: rgba(24, 34, 36, 0.14);
+        --accent: #172426;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        padding: 24px;
+        background:
+          radial-gradient(circle at top, rgba(210, 226, 227, 0.85), transparent 36%),
+          linear-gradient(180deg, #f8f5ef 0%, var(--bg) 100%);
+        color: var(--ink);
+        font: 16px/1.6 -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", sans-serif;
+      }
+      main {
+        width: min(560px, 100%);
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        background: rgba(255, 253, 248, 0.95);
+        padding: 28px;
+        box-shadow: 0 20px 60px rgba(23, 36, 38, 0.08);
+      }
+      .eyebrow {
+        margin: 0 0 8px;
+        color: var(--muted);
+        font-size: 12px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+      h1 {
+        margin: 0;
+        font-size: clamp(24px, 5vw, 32px);
+        line-height: 1.2;
+      }
+      p {
+        margin: 12px 0 0;
+      }
+      .actions {
+        display: grid;
+        gap: 12px;
+        margin-top: 22px;
+      }
+      a {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 48px;
+        padding: 0 18px;
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        text-decoration: none;
+        color: var(--ink);
+        background: white;
+        font-weight: 600;
+      }
+      a.primary {
+        background: var(--accent);
+        border-color: var(--accent);
+        color: white;
+      }
+      small {
+        display: block;
+        margin-top: 14px;
+        color: var(--muted);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">Xiaohongshu Share</p>
+      <h1>望海楼自助餐测评</h1>
+      <p>望海楼酒店海悦轩自助餐</p>
+      <p id="status">正在根据设备类型跳转，手机会尝试打开小红书，电脑会打开网页详情。</p>
+      <div class="actions">
+        <a id="primary-link" class="primary" href="https://www.xiaohongshu.com/search_result/69d9d34f000000002301d1aa?xsec_token=ABR_BdNwn94xT7BxCBKNnMAfMgg0IbnMm79NFRMydjyfU=&amp;xsec_source=" rel="noopener noreferrer">立即打开</a>
+        <a href="https://www.xiaohongshu.com/explore/69d9d34f000000002301d1aa" rel="noopener noreferrer">手机打开</a>
+        <a href="https://www.xiaohongshu.com/search_result/69d9d34f000000002301d1aa?xsec_token=ABR_BdNwn94xT7BxCBKNnMAfMgg0IbnMm79NFRMydjyfU=&amp;xsec_source=" rel="noopener noreferrer">电脑打开</a>
+      </div>
+      <small>如果没有自动跳转，请手动选择上面的入口。</small>
+    </main>
+    <script>
+      (function () {
+        var mobilePattern = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile/i;
+        var isMobile = mobilePattern.test(navigator.userAgent || "");
+        var target = isMobile ? "https://www.xiaohongshu.com/explore/69d9d34f000000002301d1aa" : "https://www.xiaohongshu.com/search_result/69d9d34f000000002301d1aa?xsec_token=ABR_BdNwn94xT7BxCBKNnMAfMgg0IbnMm79NFRMydjyfU=&xsec_source=";
+        var primary = document.getElementById("primary-link");
+        var status = document.getElementById("status");
+        if (primary) primary.href = target;
+        if (status) {
+          status.textContent = isMobile
+            ? "检测到手机设备，正在尝试打开小红书可访问页。"
+            : "检测到电脑设备，正在打开小红书网页详情。";
+        }
+        window.setTimeout(function () {
+          window.location.replace(target);
+        }, 160);
+      })();
+    </script>
+  </body>
+</html>

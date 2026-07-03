@@ -1,0 +1,252 @@
+{
+  "meta": {
+    "title": "珠海 · 澳门自助餐推荐手册",
+    "description": "基于 2026-07-02 小红书公开检索整理的珠海、澳门自助餐指南，适合周末自由行、口岸顺路吃和酒店庆祝聚餐。",
+    "evidenceDate": "2026-07-02",
+    "brand": "双城自助地图",
+    "siteUrl": "https://cxhtml.github.io/zhuhai-macau-buffet-guide/"
+  },
+  "nav": [
+    { "label": "怎么选", "href": "#quick" },
+    { "label": "珠海", "href": "#zhuhai" },
+    { "label": "澳门", "href": "#macau" },
+    { "label": "路线", "href": "#routes" }
+  ],
+  "hero": {
+    "eyebrow": "基于 2026-07-02 小红书检索整理",
+    "titleLines": ["珠海 · 澳门", "自助餐推荐手册"],
+    "copy": "把海景酒店、和牛放题、龙虾主打和高性价比午晚餐放进一页。适合周末自由行、过关顺路吃，或直接发给朋友挑一家订位。",
+    "image": "assets/images/hero.jpg",
+    "imageAlt": "珠海和澳门双城自助餐氛围主视觉",
+    "primaryCta": { "label": "先看怎么选", "href": "#quick" },
+    "secondaryCta": { "label": "复制双城路线", "href": "#routes" }
+  },
+  "quickPicks": [
+    {
+      "tag": "海景约会",
+      "title": "先看珠海华发喜来登",
+      "body": "想要窗边位、日落、停车更顺手，先从珠海海景酒店自助里挑。适合情侣、庆生和带长辈。"
+    },
+    {
+      "tag": "肉食优先",
+      "title": "珠海大牛焱烧放题",
+      "body": "更看重和牛、刺身、鳗鱼和放题满足感，珠海富华里附近这类放题店更容易吃出“值回票价”感。"
+    },
+    {
+      "tag": "澳门龙虾局",
+      "title": "Mezza9 / 汉普阁 / 巴黎人",
+      "body": "如果目标很明确就是龙虾、海鲜和酒店自助氛围，澳门路氹酒店群更集中，也更适合专程安排。"
+    },
+    {
+      "tag": "性价比午餐",
+      "title": "上葡京自助山午餐",
+      "body": "不一定非冲最高预算，工作日午餐和团购档位往往更划算，适合先试水澳门酒店自助。"
+    }
+  ],
+  "cities": [
+    {
+      "id": "zhuhai",
+      "label": "Zhuhai",
+      "title": "珠海：海景酒店、和牛放题和横琴度假餐",
+      "summary": "珠海更适合安排成“当天往返或过夜一餐”。如果你更看重停车、景观、口味稳和不想过关排队，珠海这一侧更省心。",
+      "image": "assets/images/zhuhai.jpg",
+      "imageAlt": "珠海海景酒店与自助餐台的氛围插画",
+      "places": [
+        {
+          "name": "珠海华发喜来登酒店自助餐",
+          "meta": ["海景酒店", "约会聚餐"],
+          "summary": "笔记提到落地窗直面澳门景观，海鲜、刺身、烤肉、热菜、甜品和酒水覆盖比较全，整体更偏“稳妥好拍”的五星酒店路线。",
+          "food": "重点看冰镇海鲜、厚切三文鱼、北京烤鸭、现做小火锅和粤式烧腊；更适合想兼顾海景与菜品完整度的人。",
+          "tip": "笔记特别提醒窗边位尽量提前预约；停车方便，但营业时段、座位景观和价格建议出发前再核实。",
+          "notes": [
+            {
+              "title": "珠海华发喜来登自助餐实拍",
+              "url": "xhs/zhuhai-sheraton-buffet.html",
+              "pcUrl": "https://www.xiaohongshu.com/search_result/69e5f2ef000000001a026e57?xsec_token=ABBAkIDFEk5TtSQgvdhB1bvrBLZBOJiGs48ddpBkxMGtk=&xsec_source=",
+              "mobileUrl": "https://www.xiaohongshu.com/explore/69e5f2ef000000001a026e57",
+              "qr": "assets/qr/zhuhai-sheraton-buffet.svg",
+              "kind": "food"
+            },
+            {
+              "title": "珠海五星级酒店自助餐测评",
+              "url": "xhs/zhuhai-hotel-buffet-roundup.html",
+              "pcUrl": "https://www.xiaohongshu.com/search_result/69eb70910000000036018f14?xsec_token=ABAKmfIN6ARj72MEVxSuAAYe-n6GiGUWA_0OOTlOrOpZU=&xsec_source=",
+              "mobileUrl": "https://www.xiaohongshu.com/explore/69eb70910000000036018f14",
+              "qr": "assets/qr/zhuhai-hotel-buffet-roundup.svg",
+              "kind": "supplement"
+            }
+          ]
+        },
+        {
+          "name": "大牛焱烧·和牛炭火烧放题",
+          "meta": ["和牛放题", "富华里附近"],
+          "summary": "小红书笔记把它归到“珠海 Top1 自助”一类，主打刺身、榴莲、鳗鱼、和牛这类高满足感配置，更适合专门冲放题去的人。",
+          "food": "笔记和评论区都在强调刺身可以吃爽，作者还补充了店名与位置线索，整体更偏肉食和日料爱好者友好。",
+          "tip": "评论区有人专门确认刺身是否无限量，作者回复为“对”；但价格、套餐和排队情况波动大，建议订位前再问清当前规则。",
+          "notes": [
+            {
+              "title": "大牛焱烧放题实测",
+              "url": "xhs/zhuhai-yanshao-buffet.html",
+              "pcUrl": "https://www.xiaohongshu.com/search_result/69bbd222000000002103b28e?xsec_token=ABoQsGy0d2YJElyUfzA7Tbv-Sv_CN3jzOPYNuDHgZa5dk=&xsec_source=",
+              "mobileUrl": "https://www.xiaohongshu.com/explore/69bbd222000000002103b28e",
+              "qr": "assets/qr/zhuhai-yanshao-buffet.svg",
+              "kind": "food"
+            }
+          ]
+        },
+        {
+          "name": "望海楼酒店海悦轩自助餐",
+          "meta": ["窗边景观", "熟食强项"],
+          "summary": "这条笔记适合想找“视野好、服务在线、熟食不拉跨”的人。窗边位能看大贝壳，刺身、芝士烤波龙和烤羊腿是主要记忆点。",
+          "food": "作者重点夸了芝士烤波龙、三文鱼等刺身，以及熟食里的烤羊腿；甜品里草莓冰淇淋也被单独点名。",
+          "tip": "评论区提到周五六晚在点评买券大约 258 元，且地点是 2 楼海悦轩；价格与可售餐券可能变动，出发前记得复核。",
+          "notes": [
+            {
+              "title": "望海楼自助餐测评",
+              "url": "xhs/zhuhai-wanghai-buffet.html",
+              "pcUrl": "https://www.xiaohongshu.com/search_result/69d9d34f000000002301d1aa?xsec_token=ABR_BdNwn94xT7BxCBKNnMAfMgg0IbnMm79NFRMydjyfU=&xsec_source=",
+              "mobileUrl": "https://www.xiaohongshu.com/explore/69d9d34f000000002301d1aa",
+              "qr": "assets/qr/zhuhai-wanghai-buffet.svg",
+              "kind": "food"
+            }
+          ]
+        },
+        {
+          "name": "横琴凯悦酒店享悦自助餐",
+          "meta": ["横琴度假", "海鲜优先"],
+          "summary": "如果你行程本来就在横琴，或者想把酒店自助和度假酒店住玩串起来，这家更像“顺路吃一顿不错的海鲜晚餐”。",
+          "food": "笔记提到龙虾、基围虾、鲍鱼、生蚝比较有存在感，也可以煮火锅；相比之下牛羊肉和部分甜品表现一般。",
+          "tip": "评论区补充每桌龙虾、生蚝、鲍鱼可能不是无限补给，和“无限龙虾”型酒店不同，预期别放得太像澳门龙虾局。",
+          "notes": [
+            {
+              "title": "横琴凯悦享悦自助餐实测",
+              "url": "xhs/zhuhai-hyatt-buffet.html",
+              "pcUrl": "https://www.xiaohongshu.com/search_result/6991d5c4000000001503b6d7?xsec_token=ABCvJusG-5WQoy6wry3F28h-uJWhLLFVJkBEqbVK-FWUQ=&xsec_source=",
+              "mobileUrl": "https://www.xiaohongshu.com/explore/6991d5c4000000001503b6d7",
+              "qr": "assets/qr/zhuhai-hyatt-buffet.svg",
+              "kind": "food"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "macau",
+      "label": "Macau",
+      "title": "澳门：路氹龙虾局、海鲜酒店自助和午餐高性价比",
+      "summary": "澳门更适合“为了某一家而专程去吃”。如果你追求龙虾、海鲜和酒店自助的仪式感，路氹一带更集中，但也更需要提前预约和控制预算。",
+      "image": "assets/images/macau.jpg",
+      "imageAlt": "澳门酒店群与龙虾自助餐的氛围插画",
+      "places": [
+        {
+          "name": "上葡京自助山",
+          "meta": ["午餐性价比", "环境宽敞"],
+          "summary": "这条笔记把自助山定位成“工作日午餐值得冲”的档位：环境和服务评分高，生鲜、龙虾钳、烧肉和鸡翅是主要亮点。",
+          "food": "作者特别推荐香辣龙虾钳、粤式锅烧、避风塘鸡翅和刺身；午餐刺身种类不算多，但品质评价不错。",
+          "tip": "笔记明确提醒椰青和部分酒水需额外付费，甜品表现也不算强；若你特别在意甜品或酒水，建议先看清当期餐单。",
+          "notes": [
+            {
+              "title": "上葡京自助山午餐测评",
+              "url": "xhs/macau-zizhushan-buffet.html",
+              "pcUrl": "https://www.xiaohongshu.com/search_result/69cf6196000000001a02e5b6?xsec_token=AB8v98OjZklEEHfJZJXoSq8h0wQpofTRS-e0MeTwVQFi4=&xsec_source=",
+              "mobileUrl": "https://www.xiaohongshu.com/explore/69cf6196000000001a02e5b6",
+              "qr": "assets/qr/macau-zizhushan-buffet.svg",
+              "kind": "food"
+            }
+          ]
+        },
+        {
+          "name": "澳门君悦 Mezza9",
+          "meta": ["龙虾主打", "预算偏高"],
+          "summary": "如果你对“现点现做龙虾”有执念，Mezza9 仍然是澳门讨论度很高的一家。整体更像高品质海鲜盛宴，而不是全能型大杂烩自助。",
+          "food": "笔记提到蒜蓉、避风塘、清蒸等多种龙虾做法，还点名鲍鱼、老虎斑、花螺和龙虾包；每人有饮品券，香茅冰茶和荔枝气泡茶被推荐。",
+          "tip": "作者和评论区都提到要尽量提前预订，且胃口不大的人可能会觉得性价比一般；预算敏感型可以把它放在“专程庆祝”而不是随便吃一顿。",
+          "notes": [
+            {
+              "title": "君悦 Mezza9 初体验",
+              "url": "xhs/macau-mezza9-buffet.html",
+              "pcUrl": "https://www.xiaohongshu.com/search_result/69588077000000001e035ff4?xsec_token=ABM5n4iNn0jpkdF2vW4zP1HNlD0OK7f8RezIrW-yc8ejg=&xsec_source=",
+              "mobileUrl": "https://www.xiaohongshu.com/explore/69588077000000001e035ff4",
+              "qr": "assets/qr/macau-mezza9-buffet.svg",
+              "kind": "food"
+            },
+            {
+              "title": "澳门酒店自助餐全攻略",
+              "url": "xhs/macau-buffet-roundup.html",
+              "pcUrl": "https://www.xiaohongshu.com/search_result/69a27a24000000002603c302?xsec_token=ABM3tQQ0eckTaNxUFEA-8AcJ0uTRKpKCn4sG-3hMc8Gq0=&xsec_source=",
+              "mobileUrl": "https://www.xiaohongshu.com/explore/69a27a24000000002603c302",
+              "qr": "assets/qr/macau-buffet-roundup.svg",
+              "kind": "supplement"
+            }
+          ]
+        },
+        {
+          "name": "汉普阁",
+          "meta": ["龙虾畅吃", "周末晚餐"],
+          "summary": "这家在澳门自助餐讨论里常被拿来和 Mezza9 比。笔记给出的核心感受是食材新鲜、部分菜式点单上桌，整体值得专程安排。",
+          "food": "评论区里最有用的信息是：作者确认周六晚去时龙虾为畅吃，且波士顿龙虾和小青龙都有；刺身也被评论补充为新鲜。",
+          "tip": "同一条评论区也提到周六晚没有生蚝，中午是否有龙虾作者也不确定，所以更建议把它当晚餐目标，并提前电话确认当前供应。",
+          "notes": [
+            {
+              "title": "汉普阁晚餐参考",
+              "url": "xhs/macau-hampcourt-buffet.html",
+              "pcUrl": "https://www.xiaohongshu.com/search_result/69dceeb8000000001b021ca8?xsec_token=ABxc_IlQvGLx6ZaV3_r3r350rYFjU1rX1gL6C04jSnZLM=&xsec_source=",
+              "mobileUrl": "https://www.xiaohongshu.com/explore/69dceeb8000000001b021ca8",
+              "qr": "assets/qr/macau-hampcourt-buffet.svg",
+              "kind": "food"
+            }
+          ]
+        },
+        {
+          "name": "澳门巴黎人自助晚餐",
+          "meta": ["龙虾双做法", "适合尝鲜"],
+          "summary": "更适合“想体验龙虾不限量，但不一定追求顶级综合表现”的人。整体印象是龙虾和蟹腿有吸引力，熟食够吃但不算特别丰富。",
+          "food": "作者主要吃的是牛油烤龙虾和蒜蓉蒸龙虾，认为蒸的更新鲜；蟹腿、蟹钳供应相对稳定，不是到点就空盘的类型。",
+          "tip": "这条笔记明确写了要提前预约或尽早排队，且团购价大约 626 RMB/人；如果你更在意性价比，建议把它视作“图个新鲜可试”的档位。",
+          "notes": [
+            {
+              "title": "巴黎人龙虾自助参考",
+              "url": "xhs/macau-parisian-buffet.html",
+              "pcUrl": "https://www.xiaohongshu.com/search_result/69b1467e000000001b01cad9?xsec_token=ABuPhV_zVJKYroQZLUkmvgeCnqJj_jGgIln7Q1ucfqGvU=&xsec_source=",
+              "mobileUrl": "https://www.xiaohongshu.com/explore/69b1467e000000001b01cad9",
+              "qr": "assets/qr/macau-parisian-buffet.svg",
+              "kind": "food"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "title": "珠海海景庆祝线",
+      "steps": [
+        "白天先在情侣路、湾仔或华发片区活动，傍晚把主餐放到华发喜来登或望海楼这类景观位更稳的酒店自助。",
+        "如果主要目的是拍照和聊天，优先提前订窗边位，再把晚餐时间卡在日落前后。",
+        "饭后直接返程最省心，不用再额外跨区找宵夜。"
+      ]
+    },
+    {
+      "title": "横琴 + 路氹双城两餐",
+      "steps": [
+        "第一餐放在横琴凯悦这类珠海酒店自助，配合住店、横琴口岸或长隆周边行程更顺路。",
+        "第二天过关去路氹，把预算集中给 Mezza9、汉普阁或巴黎人这类澳门主打海鲜的酒店自助。",
+        "两边都想吃时，建议一边选“海景稳妥型”，另一边选“龙虾主打型”，体验更有区分。"
+      ]
+    },
+    {
+      "title": "预算友好的澳门午晚搭配",
+      "steps": [
+        "先看工作日午餐团购或平日优惠，自助山适合先试水澳门酒店自助。",
+        "若晚上还想继续吃，把午餐定在偏轻松档位，别一开始就把预算和胃口都用满。",
+        "所有价格、团购规则、是否需双数订位和服务费包含情况，临出发前都再核对一次。"
+      ]
+    }
+  ],
+  "preDepartureNotes": [
+    "页面中的价格、团购、龙虾是否畅吃、酒水是否另收费、是否要双数订位等信息，均来自 2026-07-02 前后可见的小红书公开笔记与评论区摘要，出发前请再向餐厅或订位平台确认。",
+    "澳门酒店自助普遍更吃预约与预算管理；珠海酒店自助更适合不想过关排队、想稳一点吃一顿的人。",
+    "如果你特别在意海景、窗边位、儿童收费、停车或某种菜品是否仍在供应，最好在订位时一次问清，避免到了现场与笔记体验不一致。"
+  ],
+  "footer": "整理：双城自助地图 · 内容基于小红书公开搜索与笔记摘要二次整理"
+}
